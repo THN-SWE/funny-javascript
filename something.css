@@ -1,0 +1,54 @@
+ 
+ 
+ 
+
+.grids{
+   
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.grids div{
+    height: 33.33vh;
+    padding: 0;
+ 
+ 
+  
+     
+    
+    animation: mymove 1s infinite;
+
+
+
+}
+
+.row div{
+     
+    
+    font-size: 64px;
+    font-weight: 600;
+
+    
+     
+    
+    animation: mymove 1s infinite;
+}
+
+span{
+    display: flex;
+     
+    justify-content:center;
+    
+    animation: mymove 1s infinite;
+}
+@keyframes mymove {
+    100% {transform: rotate(180deg);}
+  }
+
+
+  
